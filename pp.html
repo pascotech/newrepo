@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    main{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    main div{
+        background-color: green;
+    }
+
+    main div:not(:first-child, :last-child) {
+        height: 40vh;
+    }
+    main div:first-child, div:last-child{
+        background-color: orange;
+        height: 15vh;
+    }
+</style>
+
+</head>
+<body>
+    <header>Vickings Nigria ltd</header>
+    <main>
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+      <div>D</div>
+      <div>E</div>
+      <div>F</div>
+      <div>G</div>
+      <div>H</div>
+
+
+    </main>
+</body>
+</html>
